@@ -1,0 +1,29 @@
+.Titulinis > *{
+    font-family: 'DM Sans', sans-serif;
+}
+.Titulinis{
+    min-width: 535px;
+}
+.nav{
+    height: 7vh;
+    background-color: #93BFCF;
+    border-bottom: 2px solid black;
+}
+.nav ul{
+    padding-left: 0;
+    height: 7vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-10px);
+}
+.highlight{
+    border-bottom: 2px rgb(4, 106, 173) solid;
+}
+.nav ul li{
+    list-style-type: none;
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 20px;
+}

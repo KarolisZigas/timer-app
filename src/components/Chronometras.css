@@ -1,0 +1,112 @@
+.App > *{
+    font-family: 'DM Sans', sans-serif;
+}
+.App{
+    height: 92.8vh;
+    background-color:#6096B4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.App .pavadinimas h2{
+    font-size: 50px;
+}
+.App .pavadinimas{
+    position: absolute;
+    top: 6vh;
+}
+.footer p{
+    margin: 0;
+    margin-top: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    bottom: 8vh;
+    border: 2px solid;
+    padding: 15px;
+    background-color: #93BFCF;
+    border-radius: 10px;
+}
+.fade-in{
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+  }
+.fade-out{
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+.footer div{
+    cursor: pointer;
+}
+.footer div p{
+    border: 1px solid black;
+    padding: 2px;
+    width: 5%;
+    border-radius: 15px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.App button{
+    width: auto;
+    min-width: 150px;
+    padding: 35px;
+    margin-top: 30px;
+    margin: 30px 10px;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #93BFCF;
+}
+.App button:hover{
+    background-color: #BDCDD6;
+}
+h1{
+    font-size: 100px;
+}
+@media only screen and (max-width: 550px){
+    .App{
+        height: 891px;
+    }
+    .footer{
+        position: absolute;
+        bottom: -200px;
+        width: 300px;
+    }
+}
+.mobile{
+    width: auto;
+    text-align: center;
+}
+.mobile h4{
+    margin: 2px;
+}
+.mobile h5{
+    margin: 0px;
+    font-size: 20px;
+}
+.App input{
+    font-family: 'DM Sans', sans-serif;
+    padding: 2px;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
